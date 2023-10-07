@@ -1,0 +1,139 @@
+.catalog {}
+
+.catalog-main {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__info {}
+
+    &__card {}
+}
+
+.info-catalog-main {
+    max-width: 440px;
+    margin: 10px;
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 1.2;
+        color: #292D32;
+    }
+
+    &__txt {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #838383;
+        padding: 30px 0 45px 0;
+    }
+}
+
+.wrap-info-catalog-main {
+    display: flex;
+    align-items: center;
+    
+
+    &__btn {
+        border: none;
+        cursor: pointer;
+        background-color: #33A9FF;
+        padding: 20px;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: .3s ease-in;
+    }
+
+    &__btn:hover {
+        background-color: #2f6890;
+    }
+
+
+    &__desc {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #292D32;
+    }
+}
+
+.card-catalog-main {
+    width: 440px;
+    height: 380px;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px;
+
+    &__number {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-family: 'Roboto';
+        font-weight: 100;
+        font-size: 25px;
+        color: #292D32;
+    }
+
+    &__suptitle {
+        position: absolute;
+        bottom: 80px;
+        left: 40px;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.2;
+        color: #838383;
+    }
+
+    &__title {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 1.2;
+        color: #292D32;
+    }
+
+    &__img {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+    }
+}
+
+// Изображение товара
+.prodact1 {
+    position: absolute;
+    top: -65px;
+    left: -50px;
+}
+
+.prodact2 {
+    position: absolute;
+    top: -66px;
+    left: 69px;
+}
+
+// Модификаторы
+.dark {
+    background-color: #f2f2f2;
+    transition: .3s ease-in;
+}
+
+.dark:hover {
+    background-color: #d7d7d7;
+}
+
+.light {
+    background-color: #f9f9f9;
+    transition: .3s ease-in;
+}
+
+.light:hover {
+    background-color: #d7d7d7;
+}
