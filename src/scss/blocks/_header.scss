@@ -1,0 +1,66 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 123px;
+}
+
+.nav-header-main {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        padding-right: 60px;
+    }
+
+    &__menu {
+        display: flex;
+    }
+
+    &__item {
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        color: #292D32;
+        line-height: 1.2;
+        padding-right: 45px;
+    }
+
+    &__item:hover {
+        text-decoration: underline;
+    }
+
+    &__seacrh {
+       
+    }
+}
+
+.btns-header-main {
+    display: flex;
+
+    &__wrap {
+        padding: 13px 15px;
+        background-color: #F9F9F9;
+        border-radius: 50%;
+        transition: .3s ease-in;
+    }
+
+    &__wrap:hover {
+        background-color: #bebdbd;
+    }
+
+    &__wrap:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__item {
+        
+    }
+}
